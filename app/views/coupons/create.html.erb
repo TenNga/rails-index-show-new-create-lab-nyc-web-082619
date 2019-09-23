@@ -1,2 +1,5 @@
 <h1>Coupons#create</h1>
 <p>Find me in app/views/coupons/create.html.erb</p>
+<%@coupons.each do |coupon|%>
+  <h3><%=coupon.coupon_code%></h3>
+<%end%>
