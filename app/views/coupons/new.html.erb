@@ -4,4 +4,7 @@
 <%= form_tag(new_coupon_path, method: "post") do %>
   <%=label_tag("Coupon Code:")%>
   <%=text_field_tag(:coupon_code)%>
+  <%=label_tag("Store:")%>
+  <%=text_field_tag(:store)%>
+  <%=submit_tag("Submit Coupon")
 <%end%>
