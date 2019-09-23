@@ -1,7 +1,7 @@
 <h1>Coupons#new</h1>
 <p>Find me in app/views/coupons/new.html.erb</p>
 
-<%= form_tag(create_coupon_path, method: "post") do %>
+<%= form_tag(create_coupon_path, method: :POST) do %>
 
   <%=label_tag("Coupon Code:")%>
   <%=text_field_tag(:coupon_code)%>
